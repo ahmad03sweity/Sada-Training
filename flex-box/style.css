@@ -1,0 +1,23 @@
+.container{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 90vh;
+    align-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    /* flex-grow: 1; */
+
+}
+.container > .box {
+    width: 150px;
+    height:150px ;
+    background-color: aqua;
+    border: 1px solid rgb(159, 43, 192);
+}
+#D{
+    order: 1;
+}
