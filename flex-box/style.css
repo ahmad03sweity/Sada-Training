@@ -8,7 +8,7 @@
     align-items: center;
     column-gap: 20px;
     row-gap: 20px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* flex-grow: 1; */
 
 }
@@ -21,3 +21,21 @@
 #D{
     order: 1;
 }
+@media (min-width:600px) and (max-width: 1200px) {
+    .container{
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    .container > .box{
+        /* flex-basis: 100%; */
+    }
+  }
+  @media (max-width:600px)  {
+    .container{
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    .container > .box{
+        flex-basis: 100%;
+    }
+  }
