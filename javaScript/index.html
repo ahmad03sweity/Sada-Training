@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Java Script</title>
-    <!-- <script>
-        console.log("Hello World From Head");
-    </script> -->
-    <!-- <script src="script.js"></script> -->
-    <script src="script[localStorage].js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <!-- <link rel="stylesheet" href="style2.css"> -->
 </head>
-<body>
-    <!-- <script>
-        console.log("Hello World From Body");
-    </script> -->
+<body onload="print()">
+    <!-- <form onsubmit="calc(event)"> -->
+        <input id="n1" type="number" style="width: 50px;">
+        <button id="+" onclick="sum()">+</button>
+        <button id="-" onclick="sub()">-</button>
+        <button id="*" onclick="mult()">*</button>
+        <button id="/" onclick="div()">/</button>
+        <input id="n2" type="number" style="width: 50px;">
+        <span id="result"> = </span>
+        <div class="myDiv">Hi</div>
+    <!-- </form> -->
+    <script src="startClick.js"></script>
 </body>
 </html>
