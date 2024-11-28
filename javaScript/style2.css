@@ -1,21 +1,17 @@
-body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Prevent scrolling when the div moves */
-}
-
-div {
-    width: 100px;
-    height: 50px;
-    background-color: lightblue;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-    border: 2px solid black;
+#myDiv{
+width: 50px;
+height: 50px;
+background-color: #3498db;
+color: #fff;
+font-family: Arial, sans-serif;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+cursor: pointer;
+transition: all 25 ease-out 100ms;
+left: 10px;
+top: 10px;
 }

@@ -86,3 +86,15 @@ const print = () =>{
 // div.addEventListener('mouseout', function () {
 //     div.textContent = "Hi";
 // });
+const box = document.getElementById("myDiv");
+
+box.addEventListener("mouseover", ()=>{
+    box.textContent = box.textContent === "Hi" ? "Bye" : "Hi";
+
+    const randomX = Math.random()* (window.innerWidth - box.offsetWidth);
+    const randomY = Math.random()* (window.innerWidth - box.offsetHeight);
+
+    box.style.left = `${randomX}px`;
+    box.style.left = `${randomX}px`;
+    box.style.backgroundColor =`#${Math.floor(Math.random()* 16777215).toString(16)}`;
+})
