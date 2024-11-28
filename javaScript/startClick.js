@@ -1,4 +1,3 @@
-
 const n1Ele =document.getElementById("n1");
 const n2Ele =document.getElementById("n2");
 const resEle = document.getElementById("result");
@@ -60,32 +59,7 @@ const print = () =>{
 //     }
 //     console.log("Result From calc: " + res);
 // }
-// const hiEle.document.getElementById('hi');
-// const run =() =>{
-//     const randX=
-// }
 
-
-
-/////////////////////////////////////////////////
-// const div1 = document.getElementById('myDiv');
-
-// div.addEventListener('mouseover', function () {
-//     // Change text
-//     div.textContent = "Bye";
-
-//     const randomX = Math.random() * (window.innerWidth - div.offsetWidth);
-//     const randomY = Math.random() * (window.innerHeight - div.offsetHeight);
-//     div.style.left = `${randomX}px`;
-//     div.style.top = `${randomY}px`;
-
-//     const randomColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
-//     div.style.backgroundColor = randomColor;
-// });
-
-// div.addEventListener('mouseout', function () {
-//     div.textContent = "Hi";
-// });
 const box = document.getElementById("myDiv");
 
 box.addEventListener("mouseover", ()=>{
